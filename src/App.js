@@ -17,7 +17,7 @@ class App extends Component{
         };
     }
     search(){
-        const ACCESS_KEY = "BQDJlYT5w8r3B14i3320IuHJRAyPwTg-LFOF4N3niyS09gaFUpDNuKDTZ4fjMHRWA-9S1ynuXNjfMHKY18j6EGkWvttKwYFVaXLnXpM1d5PSZ4IPlxfOPBFDFOOKlLAldPT1qBsUMcieimn1IM6ZMxvrFQfhXFZCpHPj8LrEtGpzMl4yLqI";
+        const ACCESS_KEY = {{API_KEY}};
         const BASE_URL = "https://api.spotify.com/v1/search?";
         let FETCH_URL = BASE_URL+"q="+this.state.query+"&type=artist"+"&limit=1";
         console.log(FETCH_URL);
